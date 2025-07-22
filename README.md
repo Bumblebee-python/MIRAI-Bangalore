@@ -124,4 +124,4 @@ Pull requests and suggestions are welcome!
 
 ## 📜 License
 
-MIT License © [Your Name]
+MIT License © Bijesh Thomas
