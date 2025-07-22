@@ -19,7 +19,7 @@ This project is a simple Flask-based **Library Management System** backed by a M
 ## 📸 Screenshots
 
 ### Dashboard
-dashboard.png
+MIRAI-Bangalore/dashboard.png
 
 ### Book Records
 ![Books](screenshots/books.png)
