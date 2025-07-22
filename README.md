@@ -122,6 +122,27 @@ Pull requests and suggestions are welcome!
 
 ---
 
+🧠 Advanced Concepts
+Many-to-Many Relation: book_author table handles books with multiple authors.
+
+Unique Constraint Logic: Prevents borrowing the same book if it's already issued.
+
+Overdue Query Logic:
+
+sql
+
+SELECT b.title, l.issue_date 
+FROM loans l
+JOIN books b ON l.book_id = b.id
+WHERE l.return_date IS NULL
+AND l.issue_date < NOW() - INTERVAL 7 DAY;
+
+
+✍️ Author
+Bijesh Thomas
+📍 CHRIST (Deemed to be University), Pune Lavasa Campus
+📫 [LinkedIn (optional)](https://www.linkedin.com/in/bijesh-thomas/)
+
 ## 📜 License
 
 MIT License © Bijesh Thomas
