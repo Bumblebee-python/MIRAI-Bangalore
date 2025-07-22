@@ -140,7 +140,6 @@ AND l.issue_date < NOW() - INTERVAL 7 DAY;
 
 ✍️ Author
 Bijesh Thomas
-📍 CHRIST (Deemed to be University), Pune Lavasa Campus
 📫 [LinkedIn (optional)](https://www.linkedin.com/in/bijesh-thomas/)
 
 ## 📜 License
